@@ -1,0 +1,519 @@
+
+.nav-link{
+  font-family: 'Mulish';
+  margin-right: 56px;
+}
+
+.profil img{
+  position: relative;
+  right:  150px;
+}
+
+.navbar{
+  box-shadow: 0px 8px 24px 0px rgba(186, 186, 186, 0.16);
+  background-color: #FFFFFF;
+}
+
+.jumbotron .full-teks h3{
+  color: rgba(20, 20, 43, 1);
+  font-size: 32px;
+  line-height: 34px;
+  font-family: 'Mulish';
+  font-weight: 700;
+}
+
+.jumbotron .full-teks h5{
+  color: rgba(78, 75, 102, 1);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Mulish';
+  line-height: 34px;
+}
+
+.jumbotron .teks-2 h5{
+  color:rgba(134, 146, 166, 1);
+  font-weight: 400;
+  font-family: 'Mulish';
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 22px;
+}
+
+.jumbotron .teks-2 h4{
+  color:rgba(18, 18, 18, 1);
+  font-weight: 400;
+  font-family: 'Mulish';
+  font-size: 16px;
+  line-height: 32px;
+  margin-top: -15px;
+}
+
+.jumbotron .synopsis h3{
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Mulish';
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 600;
+}
+
+.jumbotron .synopsis p{
+  color: rgba(78, 75, 102, 1);
+  font-family: 'Mulish';
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+
+.jumbotron2 .btn{
+  width: 284px;
+  height: 56px; 
+}
+
+
+.jumbotron2 .card .img-showtime1{
+  margin-top: 12px;
+  margin-left: 15px;
+}
+
+.jumbotron2 .card h5{
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Mulish';
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.jumbotron2 .card p{
+  color: rgba(110, 113, 145, 1);
+  font-family: 'Mulish';
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.jumbotron2 .card .img-show-line{
+  width: 381px;
+  margin-left: -8px;
+}
+
+.jumbotron2 .card h4{
+  font-family: 'Mulish';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 23px;
+  color: rgba(78, 75, 102, 1);
+}
+
+.jumbotron2 .card h3{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Mulish';
+  line-height: 32px;
+  color: rgba(107, 107, 107, 1);
+}
+
+.jumbotron2 .card h2{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Mulish';
+  line-height: 32px;
+  color: rgba(0, 0, 0, 1);
+  margin-left: 55px;
+}
+
+.jumbotron-3{
+  margin-top: -45px;
+  background-color: #FFFFFF;
+}
+
+.jumbotron3 img.logo-last{
+  width: 170px;
+  height: 44px;
+  
+}
+
+.jumbotron-3 p.last-paragraph{
+  font-family: 'Mulish';
+  font-size: 16px;
+  line-height: 36px;
+  color: #6E7191;
+  margin-top: 30px;
+}
+
+.jumbotron-3 h5{
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: 000000;
+  margin-bottom: 40px;
+  
+}
+
+.jumbotron-3 p{
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #4E4B66;
+  margin-top: 15px;
+}
+
+.jumbotron-3 img{
+  margin-bottom: 25px;
+}
+
+.jumbotron-3 h4{
+  font-family: 'Mulish';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  margin-left: 20px;
+}
+
+.jumbotron-3 .followus-list h5{
+  margin-left: 40px;
+}
+
+.jumbotron-3 .followus-list img{
+  margin-left: 40px;
+}
+
+.footer p{
+  color: #4E4B66;
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.container .footer{
+  margin-top: -20px;;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  nav .right-nav{
+    position: relative;
+    display: block;
+  }
+
+  .jumbotron .poster .img-1{
+    /* margin-top: 40px; */
+    position: relative;
+  }
+
+  .jumbotron .poster .img-2{
+    /* margin-top: 40px; */
+    position: relative;
+    bottom: 410px;
+    left: 50px;
+  }
+  .jumbotron .a-line{
+    width:600px;
+  }
+
+  /* jumbotron2 */
+.jumbotron2{
+  margin-top: -400px;
+}
+
+.jumbotron h1.display-4{
+  text-align: center;
+  font-family: 'Mulish';
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: rgba(20, 20, 43, 1));
+  margin-top: -5px;
+}
+
+.jumbotron2 .dropdown{
+  margin-top: 10px;
+  margin-left: 223px; 
+}
+
+
+.jumbotron2 .card{
+  width: 351px;
+  height: 350px;
+  border: white solid;
+  border-radius: 8px;
+  margin-top: 72px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.jumbotron2 .card .btn2{
+  background-color: #5F2EEA;
+  width: 134px;
+  height: 40px;
+  border: 1px #5F2EEA solid;
+  border-radius: 4px;
+  color: #F7F7FC;
+  font-family: 'Mulish';
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 25px;
+}
+
+.jumbotron2 .card .btn3{
+  background-color: white;
+  width: 134px;
+  height: 40px;
+  border: 1px #5F2EEA solid;
+  border-radius: 1px;
+  color: #5F2EEA;
+  font-family: 'Mulish';
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 25px;
+  margin-left: 32px;
+}
+
+.jumbotron2 img.view-more-line{
+  width: 400px;
+}
+
+.jumbotron2 h2.view{
+  text-align: center;
+  font-family: 'Mulish';
+  font-weight: 600;
+  font-size: 16px;
+  color: #5F2EEA;
+}
+
+.jumbotron-3 .explore-mobile{
+  display: none;
+}
+
+.jumbotron-3 .sponsor{
+  margin-left: 105px;
+}
+
+.jumbotron-3 .followus-list .followus-mobile{
+  display: none;
+}
+
+
+
+
+}
+
+
+/* VERSI MOBILE */
+@media (max-width: 992px) {
+  /* @media (max-width: 575.98px) {  */
+  
+  .navbar-brand img{
+    width: 86.14px;
+    height: 22,79px;
+  }
+  
+  nav .right-nav{
+    position: relative;
+    display: none;
+  }
+  .profil{
+    display: none;
+  }
+
+
+  .jumbotron .poster .img-1{
+    /* margin: 37px 66px; */
+    position: relative;
+    width: 223px ;
+    height: 308px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .jumbotron .poster .img-2{
+    position: relative;
+    bottom: 275px;
+    left: 2px;
+    width: 159px;
+    height: 244px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* .jumbotron .full-teks{
+    display: none;
+    
+  } */
+
+  .jumbotron .full-teks{
+    margin-top: -220px;
+    text-align: center;
+    font-size: 20px;  
+  }
+
+  .jumbotron .a-line{
+    width:400px;
+  }
+
+  .jumbotron .synopsis p{
+    text-align: left;
+  }
+
+  .jumbotron2 h1.display-4{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Mulish';
+    color: 000000;
+    line-height: 34px;
+    text-align: center;
+  }
+
+  .jumbotron2 .dropdown{
+    /* margin-top: 10px; */
+    /* margin-left: 223px;  */
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .jumbotron2 button.btn{
+    background-color: #EFF0F6;
+    color: #4E4B66;
+  }
+
+  .jumbotron2 .card{
+    width: 327px;
+    height: 350px;
+    border: white solid;
+    border-radius: 8px;
+    margin-top: 72px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .jumbotron2 .card-2{
+    display: none;
+  }
+  .jumbotron2 .card-3{
+    display: none;
+  }
+  .jumbotron2 .card-5{
+    display: none;
+  }
+  .jumbotron2 .card-6{
+    display: none;
+  }
+
+  .jumbotron2 .card-1{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -25px;
+  }
+
+  .jumbotron2 .card-4{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .jumbotron2 .card .btn2{
+    background-color: #5F2EEA;
+    width: 134px;
+    height: 40px;
+    border: 1px #5F2EEA solid;
+    border-radius: 4px;
+    color: #F7F7FC;
+    font-family: 'Mulish';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+   
+  }
+
+  .jumbotron2 .card .btn3{
+    background-color: white;
+    width: 134px;
+    height: 40px;
+    border: 1px #5F2EEA solid;
+    border-radius: 1px;
+    color: #5F2EEA;
+    font-family: 'Mulish';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .jumbotron2 img.view-more-line{
+    width: 95px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .jumbotron2 h2.view{
+    text-align: center;
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 16px;
+    color: #5F2EEA;
+  }
+
+  .jumbotron-3 img.logo-last{
+    margin-bottom: -10px;
+  }
+
+  .jumbotron-3 p.last-paragraph{
+    width: 283px;
+    margin-bottom: 20px;
+  }
+
+  .jumbotron-3 h5{
+    margin-top: 15px;
+    margin-bottom: 1px;
+  }
+
+  .jumbotron-3 .explore-desktop{
+    display: none;
+  }
+
+  .jumbotron-3 .explore-mobile h5{
+    margin-left: 35px;
+  }
+
+  .jumbotron-3 .explore-mobile p{
+    margin-left: 35px;
+  }
+
+  .jumbotron-3 .sponsor h5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .jumbotron-3 .followus-list{
+    margin-left: -25px;
+  }
+
+  .jumbotron-3 .followus-list h5{
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
+
+  .jumbotron-3 .followus-list h4{
+    display: none;
+  }
+  .jumbotron-3 .followus-list .fb {
+    display: none;
+  }
+  .jumbotron-3 .followus-list .ig {
+    display: none;
+  }
+  .jumbotron-3 .followus-list .twitter {
+    display: none;
+  }
+  .jumbotron-3 .followus-list .youtube {
+    display: none;
+  }
+
+ }
