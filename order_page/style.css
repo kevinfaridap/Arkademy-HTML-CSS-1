@@ -1,0 +1,549 @@
+/* ALL VERSION */
+.nav-link{
+    font-family: 'Mulish';
+    margin-right: 56px;
+    color: #414141;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px
+  }
+  
+.profil img{
+position: relative;
+right:  150px;
+}
+
+.navbar{
+  box-shadow: 0px 8px 24px 0px rgba(186, 186, 186, 0.16);
+  background-color: #FFFFFF;
+  
+}
+
+.jumbotron1{
+  background-color: #F5F6F8;
+}
+
+.jumbotron1 .card1{
+  /* width: 822px; */
+  height: 106px;
+  background: white;
+}
+
+.jumbotron1 .card1 h3{
+  font-family: 'Mulish';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: 17px;
+  margin-left: 27px;
+}
+
+.jumbotron1 .card1 .button{
+  background-color: #EFF0F7;
+  width: 164px;
+  height: 50px;
+  border: 2px #EFF0F7 solid;
+  border-radius: 10px;
+  color: #5F2EEA;
+  font-family: 'Mulish';
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+.jumbotron1 h3{
+  margin-left: 18px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.jumbotron1 h4.order-teks{
+  margin-left: 590px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.jumbotron1 img.order-img{
+  margin-left: 105px;
+}
+.jumbotron1 h5.order-title{
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Mulish';
+  font-size: 20px;
+  color: #14142B;
+  font-weight: 600;
+}
+.jumbotron1 .card-order-info{
+  width: 384px;
+}
+.jumbotron1 .order-information h5{
+  font-family: 'Mulish';
+  font-size: 13px;
+  line-height: 24px;
+  color: #6B6B6B;
+}
+.jumbotron1 .order-detail h5{
+  font-family: 'Mulish';
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 600;
+  text-align: right;
+}
+.jumbotron1 .totalpayment h4{
+  color: #000000;
+  font-size: 18px;
+  line-height: 34px;
+  font-family: 'Mulish';
+  font-weight: 600; 
+  text-align: left;
+}
+
+.jumbotron1 .totalpayment{
+  margin-top: 20px;
+}
+.jumbotron1 .totalpayment h3{
+  color: #5F2EEA;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: 'Mulish';
+  font-weight: 600;
+  text-align: center; 
+  margin-right: -90px;
+}
+
+.jumbotron-3{
+  margin-top: -45px;
+  background-color: #FFFFFF;
+}
+
+.jumbotron3 img.logo-last{
+  width: 170px;
+  height: 44px;
+  
+}
+
+.jumbotron-3 p.last-paragraph{
+  font-family: 'Mulish';
+  font-size: 16px;
+  line-height: 36px;
+  color: #6E7191;
+  margin-top: 30px;
+}
+
+.jumbotron-3 h5{
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: 000000;
+  margin-bottom: 40px;
+  
+}
+
+.jumbotron-3 p{
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #4E4B66;
+  margin-top: 15px;
+}
+
+.jumbotron-3 img{
+  margin-bottom: 25px;
+}
+
+.jumbotron-3 h4{
+  font-family: 'Mulish';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  margin-left: 20px;
+}
+
+.jumbotron-3 .followus-list h5{
+  margin-left: 40px;
+}
+
+.jumbotron-3 .followus-list img{
+  margin-left: 40px;
+}
+
+.footer p{
+  color: #4E4B66;
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.container .footer{
+  margin-top: -20px;;
+}
+
+
+
+
+/* VERSI DESKTOP */
+@media (min-width: 992px) {
+    nav .right-nav{
+    position: relative;
+    display: block;
+    }
+
+    
+.jumbotron1 .card2{
+  width: 730px;
+  height: 661px;
+}
+.jumbotron1 .chooseyourseat{
+  margin-top: -160px;
+}
+.jumbotron1 .card2 h5.screen-tittle{
+  color: #4E4B66;
+  font-family: 'Mulish';
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.jumbotron1 .card2 img.line{
+  justify-content: center;
+  display: flex;
+  margin: auto;
+}
+.jumbotron1 .card2 img.seat{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  /* width: 473px;
+  height: 274px; */
+}
+.jumbotron1 .card2 h4.seatingkey{
+  color: black;
+  font-size: 18px;
+  font-family: 'Mulish';
+  font-weight: 600;
+  line-height: 34px;
+  margin-left: 119px;
+  margin-top: 44px;
+}
+.jumbotron1 .keyseat{
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.jumbotron1 .keyseat h5{
+  color: #4E4B66;
+  font-family: 'Mulish';
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-left: 16px;
+}
+.jumbotron1 .keyseat img{
+  margin-left: 35px;
+  height: 26px;
+}
+.jumbotron1 .last-button button.button-change{
+  background-color: #F5F6F8 ;
+  border: 2px solid #5F2EEA;
+  border-radius: 4px;
+  font-family: 'Mulish';
+  font-size: 15px;
+  font-weight: 700;
+  width: 300px;
+  height: 56px;
+  color: #5F2EEA;
+}
+
+.jumbotron1 .button1{
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.jumbotron1 .last-button button.button-check{
+  background-color:  #5F2EEA;
+  border: 2px solid #F5F6F8;
+  border-radius: 4px;
+  font-family: 'Mulish';
+  font-size: 15px;
+  font-weight: 700;
+  width: 300px;
+  height: 56px;
+  color: #F7F7FC;
+ 
+}
+.jumbotron1 .button2{
+  justify-content: center;
+  margin-top: 40px;
+  margin-right: 280px;
+}
+.jumbotron1 .card2 img.line-mobile{
+  display: none;
+}
+.jumbotron1 .card2 img.seat-mobile{
+  display: none;
+}
+.jumbotron1 .card2 .keyseat-mobile{
+  display: none;
+}
+.jumbotron1 .card3{
+  display: none;
+}
+
+.jumbotron-3 .explore-mobile{
+  display: none;
+}
+
+.jumbotron-3 .sponsor{
+  margin-left: 105px;
+}
+
+.jumbotron-3 .followus-list .followus-mobile{
+  display: none;
+}
+
+}
+
+
+/* VERSI MOBILE */
+@media (max-width: 992px) {
+  
+    
+  .navbar-brand img{
+    width: 86.14px;
+    height: 22,79px;
+  }
+  
+  nav .right-nav{
+    position: relative;
+    display: none;
+  }
+  .profil{
+    display: none;
+  }
+
+  .jumbotron1 .tittle{
+    display: none;
+  }
+  .jumbotron1 .movieAndOrder{
+    display: none;
+  }
+
+  .jumbotron1 .chooseyourseat{
+    margin-top: 20px;
+  }
+
+  .jumbotron1 .chooseyourseat h3{
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .jumbotron1 .card2 h5.screen-tittle{
+    display: none;
+  }
+  .jumbotron1 .card2 img.line{
+    display: none;
+  }
+  .jumbotron1 .card2 img.line-mobile{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 41px;
+    margin-bottom: 5px;
+  }
+  .jumbotron1 .card2 img.seat{
+    display: none;
+  }
+  .jumbotron1 .card2 img.seat-mobile{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 436px;
+    height: 189px;
+  }
+  .jumbotron1 .card2 h4.seatingkey{
+    color: black;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 18px;
+    margin-top: 24px;
+  }
+
+  .jumbotron1 .card2 .keyseat{
+    display: none;
+  }
+
+  .jumbotron1 .card2 .keyseat-mobile .icon1{
+    margin-right: auto;
+    margin-left: 0px;
+  }
+
+  .jumbotron1 .card2 .keyseat-mobile h5{
+    color: #4E4B66;
+    font-size: 13px;
+    font-family: 'Mulish';
+    font-weight: 600;
+    line-height: 22px;
+    margin-left: 15px;
+  }
+  .jumbotron1 .card2 .keyseat-mobile img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+  }
+
+  .jumbotron1 .card2 .keyseat-mobile img.arrow2{
+    margin-left: 45px;
+  }
+
+  .jumbotron1 .card2 .keyseat-mobile .icon2{
+    margin-right: auto;
+    margin-left: 0px;
+  }
+
+
+  .jumbotron1 .card2 .keyseat-mobile .icon3{
+    margin-right: auto;
+    margin-left: 0px;
+  }
+
+  .jumbotron1 .card3 button{
+    width: 120px;
+    /* height: 56px; */
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: #EFF0F7;
+  }
+
+  .jumbotron1 .card3 img.dropdown{
+    margin-top: 10px;
+
+  }
+
+  .jumbotron1 .card3 img.dropdown2{
+    margin-top: 10px;
+  }
+
+  .jumbotron1 .card3 h5.in-teks2{
+    margin-right: auto;
+  }
+
+  .jumbotron1 .card3 h5.in-teks{
+    margin-right: auto;
+  }
+
+  .jumbotron1 .card3 .drop-full{
+    margin-top: 40px;
+  }
+
+  .jumbotron1 .card3 .button-seat{
+    margin-top: 32px;
+  }
+
+  .jumbotron1 .card3 .button-new-seat{
+    width: 295px;
+    height: 56px;
+    background-color: white;
+    border: 1px solid #5F2EEA;
+    border-radius: 4px;
+  }
+
+  .jumbotron1 .card3 .button-seat h4{
+    color: #5F2EEA;
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 5px;
+  }
+
+  .jumbotron1 .last-button .button1{
+    display: none;
+  }
+
+  .jumbotron1 .last-button .button2{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 80px;
+    
+  }
+
+  .jumbotron1 .last-button .button-check{
+    width: 327px;
+    height: 56px;
+    background-color: #5F2EEA;
+    font-family: 'Mulish';
+    font-size: 16px;
+    line-height: 28px;
+    color: #F7F7FC;
+  }
+
+  
+  .jumbotron-3 img.logo-last{
+    margin-bottom: -10px;
+  }
+
+  .jumbotron-3 p.last-paragraph{
+    width: 283px;
+    margin-bottom: 20px;
+  }
+
+  .jumbotron-3 h5{
+    margin-top: 15px;
+    margin-bottom: 1px;
+  }
+
+  .jumbotron-3 .explore-desktop{
+    display: none;
+  }
+
+  .jumbotron-3 .explore-mobile h5{
+    margin-left: 35px;
+  }
+
+  .jumbotron-3 .explore-mobile p{
+    margin-left: 35px;
+  }
+
+  .jumbotron-3 .sponsor h5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .jumbotron-3 .followus-list{
+    margin-left: -25px;
+  }
+
+  .jumbotron-3 .followus-list h5{
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
+
+  .jumbotron-3 .followus-list h4{
+    display: none;
+  }
+  .jumbotron-3 .followus-list .fb {
+    display: none;
+  }
+  .jumbotron-3 .followus-list .ig {
+    display: none;
+  }
+  .jumbotron-3 .followus-list .twitter {
+    display: none;
+  }
+  .jumbotron-3 .followus-list .youtube {
+    display: none;
+  }
+
+}
