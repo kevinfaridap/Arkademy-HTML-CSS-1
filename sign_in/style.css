@@ -1,0 +1,352 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+
+    main{
+        /* background-color: red; */
+        height: 695px;
+        width: 1366px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    main section{
+        /* background-color:yellow; */
+        background-image: url(./assets/img-1.jpg);
+        width: 55%;
+        /* display: block; */
+        position: relative;
+    }
+    main section::before{
+        /* background-image: url(./assets/bg-depan.jpg); */
+        content: "";
+        display: block; 
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: rgba(43, 21, 107, 0.8);
+        opacity: 0.8;
+    }
+    
+    main section .img::after{
+        background-image: url(./assets/tickitz\ 1.png);
+        width: 500px;
+        height: 190px;
+        margin-top: 203px;
+        left: 150px;
+        content: "";
+        display: block;
+        position: relative;
+    
+    }
+    main section h2{
+        color: #FFFFFF;
+        margin-top: -20px;
+        opacity: 0.8;
+        text-align: center;
+    }
+
+
+
+    main aside .img-mobile{
+        display: none;
+    }
+
+    main aside{
+        /* background-color: green; */
+        width: 45%;
+    
+    }
+    
+    main aside h1{
+        color: #121212;
+        font-family: 'Inter';
+        font-size: 48px;
+        line-height: 58,09px;
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+    
+    main aside p{
+        color: #AAAAAA;
+        font-family: 'Inter';
+        line-height: 22px;
+        font-size: 18px;
+        margin-top: -30px;
+        margin-left: 80px;
+        letter-spacing: 0.007em;
+        width: 344px;
+    }
+
+    
+    main aside h2{
+        color: #121212;
+        font-family: 'Mulish';
+        font-size: 16px;
+        line-height: 20,09px;
+        margin-top: 42px;
+        margin-left: 80px;
+    }
+
+    main aside input{
+        background-color: 252,253,254,1;
+        /* margin-top: 40px; */
+        margin-left: 80px;
+        width: 400px;
+        height: 64px;
+    }
+
+    main aside input::-webkit-input-placeholder{
+        color:#A0A3BD;
+        /* padding di pindah ke type=text  */
+        /* padding-left: 24px;  */
+        font-family: 'Mulish';
+        font-size: 16px;
+    
+    }
+
+    main aside input[type=submit]{
+        color: #F7F7FC;
+        font-family: 'Mulish';
+        background-color: #5F2EEA;
+        border: #5F2EEA solid;
+        border-radius: 4px;
+        margin-top: 15px;
+        margin-left: 100px;
+        align-items: center;
+        width: 400px;
+        height: 64px;
+    }
+
+    main aside input[type=text]{
+        padding-left: 24px;
+    }
+
+    main aside input[type=password]{
+        padding-left: 24px;
+    }
+
+    main aside form img{
+        position: relative;
+        bottom: 78px;
+        right: 45px;
+    }
+
+    main aside h2.forget-pass{
+      font-family: 'Inter';
+      margin-left: 152px;
+      font-size: 16px;
+      margin-top: 10px;
+      color: #8692A6;
+  }
+  
+  main aside .or{
+      margin-left: 120px;
+  }
+  
+  main aside .or p{
+      margin-left: 3px;
+      margin-right: 3px;
+      /* margin-right: 5px; */
+      display: inline;
+  }
+  
+  main aside .via{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+main aside .button{
+    background-color:#FFFFFF;
+    width: 182px;
+    height: 44px;
+    margin-top: 20px;
+    margin-left: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    border: 4px white solid;
+    border-radius: 10px;
+}
+
+main aside .via img{
+    padding-left: 30px;
+    padding-top: 10px;
+    
+} 
+
+main aside .via a{
+    color: #A0A3BD;
+    font-family: 'Mulish';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    position: absolute;
+    /* ini untuk relative */
+    /* bottom: 5px;
+    left: 25px; */
+    top: 10px;
+    right: 40px;
+    text-decoration: none;
+}
+    
+
+
+}
+
+
+/* MOBILE VERSION */
+@media (max-width: 992px) {
+    main section{
+        display: none;
+    }
+    
+    main aside .img-mobile{
+        background-image: url(./assets/tictiz-mobile.png);
+        width: 78px;
+        height: 20px;
+        margin-top: 55px;
+        margin-left: 24px;
+    }
+    
+    
+    main aside h1{
+        color: rgba(18, 18, 18, 1);
+        font-family: 'Mulish';
+        font-size: 26px;
+        line-height: 32px;
+        margin-top: 45px;
+        margin-left: 23px;
+    }
+    
+    main aside p{
+        display: none;
+    }
+
+    
+    main aside h2{
+        color: rgba(78, 75, 102, 1);
+        font-family: 'Mulish';
+        font-weight: 400;
+        font-size: 16px;
+        margin-left: 24px;
+    }
+
+    main aside input{
+      background-color: rgba(252, 253, 254, 1);
+      /* width: 327px; */
+      width: 90%;
+      height: 64px;
+      border: 1px solid rgba(222, 222, 222, 1);
+      /* margin-left: 24px; */
+      display: flex;
+      position: relative;
+      margin: auto;
+      justify-content: center;
+    }
+    
+    main aside input::-webkit-input-placeholder{
+      color:#A0A3BD;
+      /* padding di pindah ke type=text  */
+      /* padding-left: 24px;  */
+      font-family: 'Mulish';
+        font-size: 16px;
+        
+    }
+
+    main aside input[type=submit]{
+        color: #F7F7FC;
+        font-family: 'Mulish';
+        background-color: #5F2EEA;
+        border: #5F2EEA solid;
+        border-radius: 4px;
+        /* align-items: center; */
+        width: 327px;
+        height: 64px;
+        /* margin-left: auto;
+        margin-right: auto; */
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        margin-top: 30px;
+      }
+      
+      
+      
+      main aside input[type=text]{
+        padding-left: 24px;
+      }
+      
+      main aside input[type=password]{
+        padding-left: 24px;
+      }
+      main aside form img{
+        position: relative;
+        bottom: 155px;
+        right: -435px;
+    }
+    
+
+    aside .forget-pass{
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 16px;
+        margin-top: 10px;
+        color: #8692A6;
+
+    }
+
+    
+    main aside .or{
+      display: block;
+      margin: auto;
+      margin-left: 76px;
+      /* justify-content: center; */
+    }
+   
+    
+    main aside .or p{
+        margin-left: 3px;
+        margin-right: 3px;
+
+        display: inline;
+    }
+    
+    main aside .via{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+  
+  main aside .button{
+      background-color:#FFFFFF;
+      width: 64px;
+      height: 64px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      position: relative;
+      border: 4px white solid;
+      border-radius: 10px;
+      margin-left: 10px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+  
+  main aside .via img{
+      margin: 20px 20px;  
+  } 
+  
+  main aside .via a{
+      display: none;
+  }
+
+
+
+
+}
